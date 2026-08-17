@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simple_hour"
+version = "1.0.0"
+authors = [
+  { name="LluísE", email="code@kitsune.cat", website="kitsune.cat" },
+]
+description = "Simple hour and minutes (HH:MM) object with mathematical operations."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/lluises/simple_hour"
+Issues = "https://github.com/lluises/simple_hour/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src" = "simple_hour"
