@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from src.hour import Hour
+from src.simple_hour import Hour
 
 
 def test():

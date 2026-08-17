@@ -1,4 +1,4 @@
-# Hour
+# Simple hour
 
 Simple python library to do hour and minutes mathematical operations. It consists of a class Hour(HH, MM) that can be operated and compared with other Hour instances.
 
@@ -11,12 +11,12 @@ Simple python library to do hour and minutes mathematical operations. It consist
 
 # Installation
 
-This project is available in PyPI: https://pypi.org/project/hour
+This project is available in PyPI: https://pypi.org/project/simple_hour
 
 You can install it in your machine by just doing:
 
 ```
-pip install hour
+pip install simple_hour
 ```
 
 
@@ -24,7 +24,7 @@ pip install hour
 
 
 ```python
-from hour import Hour
+from simple_hour import Hour
 
 a = Hour(12, 30)  # 12h and 30min
 b = Hour(8, 25)   # 8h and 25min
@@ -49,7 +49,7 @@ print(Hour(1.5, 0))  # 1.5h gets converted to Hour(1, 30)
 You can have over 24 hours. This library does not handle days
 
 ```python
-from hour import Hour
+from simple_hour import Hour
 
 a = Hour(32, 25)  # 32h and 25min
 print(a)          # Prints "32:25"
@@ -58,7 +58,7 @@ print(a)          # Prints "32:25"
 You can always obtain a 24h Hour by using the mod `%` operator:
 
 ```python
-from hour import Hour
+from simple_hour import Hour
 
 a = Hour(32, 25)
 b = a % Hour(24)
@@ -68,7 +68,7 @@ print(b)  # Prints "08:25"
 Negative hours are possible:
 
 ```python
-from hour import Hour
+from simple_hour import Hour
 
 a = Hour(-2, 10)  # -2h + 10min
 b = Hour(3)       # 3h
