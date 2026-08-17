@@ -63,7 +63,7 @@ from hour import Hour
 a = Hour(32, 25)
 b = a % Hour(24)
 print(b)  # Prints "08:25"
-
+```
 
 Negative hours are possible:
 
