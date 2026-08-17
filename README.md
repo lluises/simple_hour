@@ -5,7 +5,7 @@ Simple python library to do hour and minutes mathematical operations. It consist
 
 - **Author**: [LluisE](https://github.com/lluises)
 - **Website**: https://kitsune.cat
-- **Source**: https://github.com/lluises/hour
+- **Source**: https://github.com/lluises/simple_hour
 - **Licence**: https://www.mozilla.org/en-US/MPL/2.0/
 
 
